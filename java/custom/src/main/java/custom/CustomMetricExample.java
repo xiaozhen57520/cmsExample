@@ -64,7 +64,6 @@ public class CustomMetricExample {
 		for (int i = 0; i < 10; i++) {
 			Map<String, String> metric = new HashMap<>();
 			metric.put("metricName", "metric_example");
-			metric.put("instanceId", "i-test" + i);
 			metric.put("groupId", "96");
 
 			Map<String, String> dimensions = new HashMap<>();
